@@ -30,7 +30,13 @@ public class JavaExample {
 	    case '-':
             	output = num1 - num2;
                 break;
+	    case '*':
+            	output = num1 * num2;
+                break;
 
+            case '/':
+            	output = num1 / num2;
+                break;
             /* If user enters any other operator or char apart from
              * +, -, * and /, then display an error message to user
              * 
